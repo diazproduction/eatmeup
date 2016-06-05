@@ -1,0 +1,48 @@
+.c-food-card {
+  border: 3px solid #EDA427;
+  border-radius: 25px;
+  padding: 2px;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  color: #474747;
+  height: 270px;
+  width: 45%;
+  min-width: 600px;
+  h1 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+.c-food-card__image {
+  width: 40%;
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.c-food-card__text {
+  padding: 20px;
+  width: 53%;
+  display: inline-block;
+}
+
+.c-food-card__date {
+  margin-top: 5px;
+}
+
+.c-food-card__description {
+  font-style: italic;
+}
+
+.c-food-card__kcal {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: right;
+  margin: 0;
+}
