@@ -4,7 +4,6 @@
   "description": "Boilerplate for ReactJS project with hot code reloading",
   "scripts": {
     "start": "babel-node server.js",
-    "flyway": "flyway migrate -locations=filesystem:./migrations",
     "lint": "eslint src"
   },
   "repository": {
